@@ -48,8 +48,8 @@ addEventListener("DOMContentLoaded",()=>{
         gsap.from(head,{
           y:0,
           opacity:0,
-          duration:1,
-          delay:0.2,
+          duration:0.5,
+          delay:0.1,
           scrollTrigger:{
             trigger:head,
             start:"top 70%",
