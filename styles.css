@@ -562,6 +562,47 @@ color: black;
     margin-bottom: 10rem;
 
 }
+.page5 .line1{
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    
+}
+.page5 .line2{
+    height: 2px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.322);
+    
+}
+.page5 .long-line{
+  
+    display: grid;
+    grid-template-columns: 100px 400px 50px 50px;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 5rem;
+
+}
+.page5 .long-line .arrow{
+   
+    margin-left: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(121, 120, 120);
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    
+} 
+.page5 .long-line .arrow:nth-child(4){
+    border: 1px solid rgba(0, 0, 0, 0.651);
+    color: rgb(0, 0, 0);
+}
+
+
 .page6{
     height: 100%;
     margin: 0 var(--margin-width);
